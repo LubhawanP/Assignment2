@@ -38,7 +38,7 @@ Your main program should be in the `TreeSearch.cpp` file and the generated execu
 ```
 -----------------------
 ### How to complete assignment?
-* Start by [downloading](https://github.com/DS221-2021/Assignment2/archive/refs/heads/main.zip) the code outline for Node.h, ExprTree.cpp, TreeSearch.h and TreeSearch.cpp files. You can make changes to the cpp files. Make sure your code is well documented. Maintain good coding practices (indenting, comments, validations, etc.)
+* Start by [downloading](https://github.com/DS221-2021/Assignment2/archive/refs/heads/main.zip) the code outline for ExprTree.cpp, TreeSearch.h and TreeSearch.cpp files. You can make changes to the cpp files. Make sure your code is well documented. Maintain good coding practices (indenting, comments, validations, etc.)
 * Three test cases (expr1.txt, num1.txt, query1.txt, ...) are available. These test cases will be different from the ones which will be used while correcting your assignments and you are expected to run your code on other sample data of your own.
 * Evaluation of the code will be done using automated scripts. This means you **must** follow instructions for compilation using Makefile, input format and console output format. If the automated compilation/evaluation fail, your assignment will not be evaluated.
 * You should compile the code using the given Makefiles for each part of the assignment. Do not change the Makefiles. We will compile your submission from source.
