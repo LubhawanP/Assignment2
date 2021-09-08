@@ -3,7 +3,7 @@
 ### POINTS: 150 (Due date: Sept 24 6:00 PM)
 
 -----------------------
-### PART A
+### Question 1
 #### Expression Evaluation using Trees and Stacks (90 points)
 
 You are given a mathematical expression as a string that is read from console input. The expression will be composed of four binary operators + - * / and non-negative integers as operands. Each sub-expression formed from a operator will be enclosed within parenthesis, i.e., (L op R) where L is the left operand, op is the operator and R is the right operand. There may be zero or more spaces between the operators, operands and parenthesis.
@@ -19,7 +19,7 @@ cat <expression text file> | ./ExprTree
 ```
 
 -----------------------
-### PART B
+### Question 2
 #### Searching using arrays (60 points + 20 points extra credit)
 You are given a input file with n+1 rows. The first line has a non-negative integer that indicates a count of the input numbers in the file 'n' and the remaining 'n' rows have an input integer each. As a first step, write C++ code to compactly insert these numbers into a binary tree implemented as an array.
 
