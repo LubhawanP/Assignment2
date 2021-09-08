@@ -7,7 +7,7 @@ using namespace std;
 
 /**
  * Constructor to instantiate the array
- * @param size_ - number elements in tree
+ * @param size_ - number of elements in tree
  */
 BinaryTree::BinaryTree(int size_){
   // TODO
@@ -24,7 +24,7 @@ int BinaryTree::insert(int key){
 }
 
 /**
- * Function to find the key by performing a inorder order traversal of the tree
+ * Function to find the key by performing an inorder order traversal of the tree
  * @param key - key to be searched for in the tree
  * @return value - return the index of the key (starting at 1) if found else return -1
  */
@@ -68,10 +68,10 @@ int main(){
   // insert each input number into the tree
 
   // iterate and search for each query number using inorder traversal
-  // measure the total time taken to for all the number using inorder
+  // measure the total time taken to search all the numbers using inorder
 
   // iterate and search for each query number using level-order traversal
-  // measure the total time taken to for all the number using level-order
+  // measure the total time taken to search all the numbers using level-order
 
 
   // output in the format "A2a:123,456,789" where:
