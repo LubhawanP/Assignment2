@@ -49,7 +49,6 @@ DS221-A2-cdsstudent/
   DS221-A2-cdsstudent.pdf
   q1/
     makefile
-    Node.h
     ExprTree.cpp
   q2/
     makefile
