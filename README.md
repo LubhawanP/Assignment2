@@ -12,7 +12,7 @@ You are given a mathematical expression as a string that is read from console in
 * (b) Define a Tree data structure in C++ by implementing the virtual functions defined in the abstract class Node.h provided to you. Build an expression tree using the given input expression. The root must be an operator, its left and right subtrees must be its sub-expression, internal nodes should be operators and leaves must be integer operands. Parenthesis must not be placed in the node. Perform a pre-order traversal of the expression tree and print it to the console output as "1b:op L R ...". A space must separate the operators and operands. Do not print parentheses. (30 points)
 * (c) Evaluate the expression tree you have constructed using an STL stack data structure. You should use default C++ integer-based arithmetic in all steps of your evaluation (i.e., NOT float or double). You should print the result of the expression tree as: "1c:123456" where 123456 is the output of evaluating the expression. (40 points)
 
-Your main main C++ file should be in `ExprTree.cpp` and the generated executable should be named `ExprTree`. A sample outline for `ExprTree.cpp` is provided. Your program will be executed and tested by an automated script like the following way
+Your main C++ program should be in the file `ExprTree.cpp` and the generated executable should be named `ExprTree`. A sample outline for `ExprTree.cpp` is provided. Your program will be executed and tested by an automated script like the following way
 ```
 echo "((10 + 5) + (20/3))" | ./ExprTree`    OR
 cat <expression text file> | ./ExprTree
@@ -28,7 +28,7 @@ You are given a input file with n+1 rows. The first line has a non-negative inte
   2. level-order traversal. 
 * Measure the time taken to complete the search for all queried numbers using each strategy. Print to console output `2a:123,456,789` where 123<=m is a count of the queried numbers that were successfully found in the tree, 456 is the total time taken in **milliseconds** to complete all searches using in-order traversal, and 789 is the total time taken in milliseconds to complete all searches using level-order traversal. [30 points]
 
-* b) For at least 3 different sizes of the input file, estimate the space taken by the array and the time taken by the two search strategies. Compare these with the expected space and time complexities complexity. Provide a report with plots, comparisons and analysis of the observations. Explain any outliers. [30 points]
+* b) For at least 3 different sizes of the input file, estimate the space taken by the array and the time taken by the two search strategies. Compare these with the expected space and time complexities. Provide a report with plots, comparisons and analysis of the observations. Explain any outliers. [30 points]
 
 * c) Optionally, sort and store the input numbers in a sorted array. You may use the sort() function over arrays in C++ STL. Perform a binary search over this sorted array for the input queries. Print your output as "2c:345", where 345 is the total time taken for the binary search of all numbers to complete. Include an analysis of these results in your report. (EXTRA CREDIT: 20 points)
 
