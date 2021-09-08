@@ -10,7 +10,7 @@ using namespace std;
  * @param size_ - number elements in tree
  */
 BinaryTree::BinaryTree(int size_){
-    // TODO
+  // TODO
 }
 
 /**
@@ -19,8 +19,8 @@ BinaryTree::BinaryTree(int size_){
  * @return 0 if insert was success, -1 if it failed
  */
 int BinaryTree::insert(int key){
-    //TODO
-    
+  //TODO
+
 }
 
 /**
@@ -29,7 +29,7 @@ int BinaryTree::insert(int key){
  * @return value - return the index of the key (starting at 1) if found else return -1
  */
 int BinaryTree::findByInOrder(int key){
-	// TODO
+  // TODO
 }
 
 /**
@@ -38,7 +38,7 @@ int BinaryTree::findByInOrder(int key){
  * @return value - return the index of the key (starting at 1) if found else return -1
  */
 int BinaryTree::findByLevelOrder(int key){
-	// TODO
+  // TODO
 }
 
 /**
@@ -48,7 +48,7 @@ int BinaryTree::findByLevelOrder(int key){
  * @return 0 if insert was success, -1 if it failed
  */
 int insertSorted(int* keys) {
-	// TODO: optional, extra credit
+  // TODO: optional, extra credit
 }
 
 /**
@@ -58,10 +58,10 @@ int insertSorted(int* keys) {
  * @return value - return the index of the key (starting at 1) if found else return -1
  */
 int BinaryTree::findByBinarySearch(int key){
-	// TODO: optional, extra credit
+  // TODO: optional, extra credit
 }
 
-		
+
 int main(){
   // read from input number and query files using the file name passed in as inputs
 
