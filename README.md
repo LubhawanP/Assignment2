@@ -61,6 +61,7 @@ DS221-A2-cdsstudent/
 ### How to submit assignment?
 * You must host your solution as a **private** repository named "DS221-A2-YourIIScEmailAlias" on GitHub. For example, if your IISc email address is cdsstudent@iisc.ac.in, then the repository should be named as DS221-A2-cdsstudent.
 * Once your code is complete, you should [transfer the ownership of your private repository](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/transferring-a-repository#transferring-a-repository-owned-by-your-user-account) to `chandrashekar-cds`. Transfers made after due date will be ignored.
+* Do not wait till the last moment and complain that you are facing problems. 
 
 -----------------------
 ### Policy
