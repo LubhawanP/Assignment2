@@ -152,7 +152,7 @@ bool isValid(string exp) {
  * @param result - result from evaluating validity of expression
  */
 void printResultA(bool result) {
-  cout << "A1a:" << (result ? "true" : "false") << endl;
+  cout << "1a:" << (result ? "true" : "false") << endl;
 }
 
 /**
@@ -160,7 +160,7 @@ void printResultA(bool result) {
  * @param result - expression from the pre order traversal
  */
 void printResultB(string result) {
-  cout << "A1b:" << result << endl;
+  cout << "1b:" << result << endl;
 }
 
 /**
@@ -168,7 +168,7 @@ void printResultB(string result) {
  * @param result - result after evaluation of expression
  */
 void printResultC(int result) {
-  cout << "A1c:" << result << endl;
+  cout << "1c:" << result << endl;
 }
 
 int main() {
