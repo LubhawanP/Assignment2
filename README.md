@@ -3,6 +3,13 @@
 ### POINTS: 150 (Due date: Sept 24 6:00 PM)
 
 -----------------------
+###Changelog
+
+Changes made in the instructions after Sept 10 will be announced here. Please update your code accordingly.
+
+* In response to #2, we have revised Makefiles to enable `-std=c++17` support. You are required to use gcc [version 9.1](https://lwn.net/Articles/787385/) or above.
+
+-----------------------
 ### Question 1
 #### Expression Evaluation using Trees and Stacks (90 points)
 
@@ -41,7 +48,7 @@ Your main program should be in the `TreeSearch.cpp` file and the generated execu
 * Start by [downloading](https://github.com/DS221-2021/Assignment2/archive/refs/heads/main.zip) the code outline for ExprTree.cpp, TreeSearch.h and TreeSearch.cpp files. You can make changes to the cpp files. Make sure your code is well documented. Maintain good coding practices (indenting, comments, validations, etc.)
 * Three test cases (expr1.txt, num1.txt, query1.txt, ...) are available. These test cases will be different from the ones which will be used while correcting your assignments and you are expected to run your code on other sample data of your own.
 * Evaluation of the code will be done using automated scripts. This means you **must** follow instructions for compilation using Makefile, input format and console output format. If the automated compilation/evaluation fail, your assignment will not be evaluated.
-* You should compile the code using the given Makefiles for each part of the assignment. Do not change the Makefiles. We will compile your submission from source.
+* You should compile the code using the given Makefiles for each part of the assignment. Use gcc [version 9.1 ](https://lwn.net/Articles/787385/) or above. Do not change the Makefiles. We will compile your submission from source.
 * Follow the console output format accurately as listed in the problem. You MUST NOT print anything else to the console output other than what is listed in the question. 
 * Your solution should have the following folder structure and these exact file names. Nothing more, nothing less. Replace `cdsstudent` with your IISc email handle.
 ```
