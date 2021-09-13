@@ -3,7 +3,7 @@
 ### POINTS: 150 (Due date: Sept 24 6:00 PM)
 
 -----------------------
-###Changelog
+### Changelog
 
 Changes made in the instructions after Sept 10 will be announced here. Please update your code accordingly.
 
