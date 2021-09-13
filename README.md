@@ -7,7 +7,7 @@
 
 Changes made in the instructions after Sept 10 will be announced here. Please update your code accordingly.
 
-* In response to #2, we have revised Makefiles to enable `-std=c++17` support. You are required to use gcc [version 9.1](https://lwn.net/Articles/787385/) or above.
+* In response to #2 , we have revised Makefiles to enable `-std=c++17` support. You are required to use gcc [version 9.1](https://lwn.net/Articles/787385/) or above.
 
 -----------------------
 ### Question 1
