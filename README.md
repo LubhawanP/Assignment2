@@ -7,7 +7,7 @@
 
 Changes made in the instructions after Sept 10 will be announced here. Please update your code accordingly.
 
-* In response to [#2](https://github.com/DS221-2021/Assignment2/issues/2), we have revised Makefiles to enable `-std=c++17` support. You are required to use gcc [version 9.1](https://lwn.net/Articles/787385/) or above.
+* In response to [#2](https://github.com/DS221-2021/Assignment2/issues/2), we have [revised Makefiles](https://github.com/DS221-2021/Assignment2/commit/9767070b9cf86ff7806173f3ded3b3b0f1f6e6c9) to enable `-std=c++17` support. You are required to use gcc [version 9.1](https://lwn.net/Articles/787385/) or above.
 
 -----------------------
 ### Question 1
