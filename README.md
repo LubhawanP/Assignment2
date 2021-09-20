@@ -7,7 +7,10 @@
 
 Changes made in the instructions after Sept 10 will be announced here. Please update your code accordingly.
 
-* In response to [#2](https://github.com/DS221-2021/Assignment2/issues/2), we have [revised Makefiles](https://github.com/DS221-2021/Assignment2/commit/9767070b9cf86ff7806173f3ded3b3b0f1f6e6c9) to enable `-std=c++17` support. You are required to use gcc [version 9.1](https://lwn.net/Articles/787385/) or above.
+
+* [20/9] In response to [#4](https://github.com/DS221-2021/Assignment2/issues/4), we would like to clarify that you should test your algorithms with large enough input sizes to be able to measure runtime in milliseconds and evaluate scalability. Your algorithms would likely require &lt;&lt; 1 millisecond on small inputs.
+* [20/9] Question 2 will require an implementation of binary search tree. 
+* [12/9] In response to [#2](https://github.com/DS221-2021/Assignment2/issues/2), we have [revised Makefiles](https://github.com/DS221-2021/Assignment2/commit/9767070b9cf86ff7806173f3ded3b3b0f1f6e6c9) to enable `C++17` support. You are required to use gcc [version 9.1](https://lwn.net/Articles/787385/) or above.
 
 -----------------------
 ### Question 1
@@ -28,7 +31,7 @@ cat <expression text file> | ./ExprTree
 -----------------------
 ### Question 2
 #### Searching using arrays (60 points + 20 points extra credit)
-You are given a input file with n+1 rows. The first line has a non-negative integer that indicates a count of the input numbers in the file 'n' and the remaining 'n' rows have an input integer each. As a first step, write C++ code to compactly insert these numbers into a binary tree implemented as an array.
+You are given a input file with n+1 rows. The first line has a non-negative integer that indicates a count of the input numbers in the file 'n' and the remaining 'n' rows have an input integer each. As a first step, write C++ code to compactly insert these numbers into a binary search tree implemented as an array.
 
 * a) You are also given a separate _query_ file with m+1 numbers, one per line. The first line has a non-negative integer that indicates a count of the numbers in the file 'm' and remaining 'm' rows have a query integer each. Write an efficient C++ code to search for each number in this query file within the binary tree by performing:
   1. an in-order traversal, and 
