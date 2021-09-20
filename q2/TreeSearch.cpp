@@ -74,8 +74,8 @@ int main(){
   // measure the total time taken to search all the numbers using level-order
 
 
-  // output in the format "A2a:123,456,789" where:
+  // output in the format "2a:123,456,789" where:
   // 123<=m is the number matching query numbers found 
-  // 456 is the total time taken in nanoseconds to complete the search using inorder traversal, and 
-  // 789 is the total time taken in nanoseconds to complete this search using level-order traversal.
+  // 456 is the total time taken in milliseconds to complete the search using inorder traversal, and 
+  // 789 is the total time taken in milliseconds to complete this search using level-order traversal.
 }
